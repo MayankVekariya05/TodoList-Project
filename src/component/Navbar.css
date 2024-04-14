@@ -1,0 +1,19 @@
+nav{
+    height: 50px;
+    width: 100vw;
+    background-color: rgb(0, 0, 60);
+    color: white;
+
+
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    line-height: 3rem;
+}
+.home ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}

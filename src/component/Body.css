@@ -1,0 +1,179 @@
+    .main{
+        background-color: rgb(190, 217, 255);
+        min-height: 85vh;
+        width: 43vw;
+        margin: 12px auto;
+        border-radius: 2%;
+
+    }
+
+
+    
+    .main h1{
+        text-align: center;
+    }
+    .container{
+        margin: 12px 15px;
+    }
+
+    .input{
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        gap: 30px;
+    
+    }
+    .container input,button {
+        height: 30px;
+        border:none ;
+        border-radius: 45px;
+    }
+    .input input{
+        width: 35vw;
+        padding: auto;
+    }
+
+    .btn {
+        width: 50px;
+        cursor: pointer;
+        color: white;
+        background-color:  rgb(0, 0, 60);
+    }
+    hr{
+        margin: 18px 15px;
+    }
+    .checkboxes{
+        display: flex;
+        gap: 5px;
+        align-items: center;
+    }
+
+    .chbox{
+        cursor: pointer;
+    }
+    .finished_todo{
+        display: flex;
+        margin: 12px 0;
+        justify-content: space-between;
+    
+    }
+
+    .btns{
+        width: 40px;
+        margin: 0px 5px;
+        border-radius: 20px;
+    }
+
+    @media only screen and (max-width: 600px) {
+    .main {
+        width: 90vw;
+    
+    }
+    .main h1{
+        font-size: 30px;
+    }
+    .input input{
+        width: 65vw;
+        padding: auto;
+    }
+    .content{
+        font-size: 25px;
+    
+    }
+    .chbox{
+        size: 25px;
+    }
+
+    }
+
+
+
+
+
+
+
+ /* chatGpt */
+ /* .main {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: palevioletred;
+  }
+  
+  .heading {
+    margin-top: 20px;
+  }
+  
+  .input {
+    display: flex;
+    align-items: center;
+  }
+  
+  .input input {
+    flex: 1;
+    padding: 8px;
+    margin-right: 10px;
+  }
+  
+  .btn {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .checkboxes {
+    margin-top: 20px;
+  }
+  
+  .hero {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .finished_todo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .chbox {
+    margin-right: 10px;
+  }
+  
+  .edit {
+    display: flex;
+    align-items: center;
+  }
+  
+  @media (max-width: 600px) {
+    .input {
+      flex-direction: column;
+    }
+  
+    .input input {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+    .checkboxes {
+      flex-direction: column;
+    }
+  
+    .hero {
+      flex-direction: column;
+    }
+  
+    .edit {
+      margin-top: 10px;
+    }
+  }
+   */
